@@ -1,5 +1,3 @@
-Get Github record data using github API
-
 Collect data based on time using GitHub API
 
 1. Find a way to collect every repo's  (need to get every count's time)

@@ -1,4 +1,4 @@
-Collect data based on time using GitHub API
+# Collect data based on time using GitHub API
 
 1. Find a way to collect every repo's  (need to get every count's time)
 - forks_count (this sample code is for fork)

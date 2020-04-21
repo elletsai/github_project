@@ -1,6 +1,7 @@
 # Collect data based on time using GitHub API
 
 1. Find a way to collect every repo's  (need to get every count's time)
+```
   - forks_count (this sample code is for fork)
   - package_count
   - stargazers_count
@@ -14,5 +15,6 @@
   - releases_count
   - contributors_count **
   - follower_count
+ ```
 
 2. Get contributors following record

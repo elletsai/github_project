@@ -1,4 +1,4 @@
-def get_py_module(df, save_name):
+def get_py_module(df, save_path):
 
     import pandas as pd
     import dis
@@ -64,7 +64,7 @@ def get_py_module(df, save_name):
             df_python['module'][i] = list(chain.from_iterable(import_name))
 
 
-        df_python.to_csv('/sfs/lustre/bahamut/scratch/yt9mh/RA-github/github/'+str(save_name)+'.csv', index = False)
+        df_python.to_csv(save_path, index = False)
 
     return df_python
 
